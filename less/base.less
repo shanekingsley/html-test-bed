@@ -1,0 +1,130 @@
+/***********************************\
+*	File: 	base.less				*
+*	Author: SKingsley				*
+* 	Desc:	This file defines a		*
+*			basic css template for	*
+*			HTML5 elements			*
+*									*
+\***********************************/
+
+/**** MIXINS ****/
+
+.horizontal(@width) {
+	li {
+		float: left;
+	}
+	a {
+		display: block;
+		width: @width;
+		text-align: center;
+		margin: 0.5em;
+	}
+}
+
+
+/**** VARIABLES ****/
+
+@textColor: #000;
+@ff: Helvetica, arial, sans-serif; // Font face
+@baseFontSize: 16px;
+
+@br: 10px; // border radius
+@bgSoft: #CDCDCD;
+
+/*** Main elements ***/
+body {
+	font-size: @baseFontSize;
+}
+
+/* headings */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: @ff;
+	color: @textColor;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+h2 {
+	font-size: 1.75em;
+	margin-bottom: 0.75em;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin-bottom: 0.5em;
+}
+
+h4 {
+	font-size: 1.25em;
+	margin-bottom: 0.25em;
+}
+
+h5 {
+	font-size: 1.15em;
+	margin-bottom: 0.25em;
+}
+
+h6 {
+	font-size: 1em;
+	margin-bottom: 0.25em;
+}
+
+/* LINKS */
+a {
+	
+}
+
+/* textual */
+p {
+	margin-bottom: 0.75em;
+}
+	
+em {}		
+
+strong {}	
+
+small {
+	font-size: 0.6em;
+}
+
+cite {}	
+
+q {}
+
+dfn	{}	
+
+abbr {}
+
+code { 
+	white-space: pre; /* preserve whitespace within code sections */
+	background: @bgSoft;
+	border-radius: @br;
+	display: block;
+}
+
+blockquote, q{
+	&:before {
+		content: '"';
+	}
+	&:after {
+		content: '"';
+	}
+}
+
+
+/**** FORMS ****/
+form {
+	input, select {
+		display: block;
+	}
+}
+
+nav ul {
+	display: block;
+	.horizontal(100px);
+}

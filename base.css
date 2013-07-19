@@ -1,0 +1,16 @@
+body{font-size:16px;}
+h1,h2,h3,h4,h5,h6{font-family:Helvetica,arial,sans-serif;color:#000000;font-weight:bold;}
+h1{font-size:2em;margin-bottom:1em;}
+h2{font-size:1.75em;margin-bottom:0.75em;}
+h3{font-size:1.5em;margin-bottom:0.5em;}
+h4{font-size:1.25em;margin-bottom:0.25em;}
+h5{font-size:1.15em;margin-bottom:0.25em;}
+h6{font-size:1em;margin-bottom:0.25em;}
+p{margin-bottom:0.75em;}
+small{font-size:0.6em;}
+code{white-space:pre;background:#cdcdcd;border-radius:10px;display:block;}
+blockquote:before,q:before{content:'"';}
+blockquote:after,q:after{content:'"';}
+form input,form select{display:block;}
+nav ul{display:block;}nav ul li{float:left;}
+nav ul a{display:block;width:100px;text-align:center;margin:0.5em;}

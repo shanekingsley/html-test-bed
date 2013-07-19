@@ -1,0 +1,265 @@
+<!doctype html>
+<html>
+<head lang="en">
+	<meta charset="utf-8" />
+	<meta name="author" content="Shane Kingsley" />
+	<title>HTML5 Elements test bed</title>
+	<link href="css/reset.css" type="text/css" rel="stylesheet" />
+	<link href="css/base.css" type="text/css" rel="stylesheet" />
+	<link href="css/styles.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div id="wrapper">
+	<nav>
+		<ul>
+			<li><a href="#headings">Headings</a></li>
+			<li><a href="#lists">lists</a></li>
+			<li><a href="#textual">Text</a></li>
+			<li><a href="#edits">Editing</a></li>
+			<li><a href="#tables">Tables</a></li>
+			<li><a href="#forms">Forms</a></li>
+			<li><a href="#misc">Other</a></li>
+		</ul>
+	</nav>
+	<div>
+		<h1>HTML5 Elements</h1>
+		
+		<p>Below is a lst of different elements available to allow an easy way of testing styling. Sectioning elements will be denoted by a note within them but until styling is applied will not show any visual differences.</p>
+	</div>
+	<div id="headings">
+		<h1>heading 1</h1>
+		<h2>heading 2</h2>
+		<h3>heading 3</h3>
+		<h4>heading 4</h4>
+		<h5>heading 5</h5>
+		<h6>heading 6</h6>
+	</div>
+
+	<div id="lists">
+		<h2>Lists</h2>
+		<ol>
+			<li>This is</li>
+			<li>an ordered</li>
+			<li>List</li>
+		</ol>
+		<ul>
+			<li>This is</li>
+			<li>an unordered</li>
+			<li>List</li>
+		</ul>
+		<dl>
+			<dt>A definition list</dt>
+			<dd>This is used to create a list of key value pairs such as a glossary</dd>
+			<dt>Item two</dt>
+			<dd>The super cool definition of item two</dd>
+		</dl>
+	</div>
+
+	<div id="textual">
+	
+		<h2>Textual elements</h2>
+		
+		<h3>Paragraph</h3>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
+		
+		<p><a href="#">This is a link</a></p>
+		<p><em>This is am emphasised piece of text</em></p>
+		<p><strong>Strong text</strong></p>
+		<p><small>I am rather small</small></p>
+		<p><cite>This is a citation</cite></p>
+		<p><q>An inline quote as opposed to blockquote</q></p>
+		<p><dfn>A definition (&lt;dfn&gt;) </dfn> is the first two words of this</p>
+		<p><abbr>An abbreviation (&lt;abbr&gt;) </abbr> is the first two words of this</p>
+		
+		<code>
+	 function apples() {
+	   this = &quot;code&quot;;
+	   a = a + 2;
+	   return codebase;
+	 }
+		</code>
+		
+		<p> Using the var element: <var>x</var> = <var>y</var> + 2 </p>
+		<p>The keyboard command element: <kbd>cmd</kbd></p>
+		<p><sub>subscript</sub> and <sup>superscript</sup></p>
+		
+		
+		<ruby>&#32819;<rp>(</rp><rt>Kan</rt><rp>)</rp></ruby>
+	</div>
+	<div id="edits">
+		<h2>Edits</h2>
+		<p><ins>This test is marked up as inserted</ins></p>
+		<p><del>This test is marked up as deleted</del></p>
+		<p>The &lt;mark&gt; element is used to <mark>highlight</mark> text</p>
+	</div>
+	<hr />
+	<div id="tables">
+	<h2>Tablular data</h2>
+	<table>
+		<caption>This is a table caption, table uses colgruop to separate column 3</caption>
+		  <colgroup>
+			<col span="2" >
+			<col >
+		  </colgroup>
+		  <tr>
+			<th>ISBN</th>
+			<th>Title</th>
+			<th>Price</th>
+		  </tr>
+		  <tr>
+			<td>3476896</td>
+			<td>My first HTML</td>
+			<td>$53</td>
+		  </tr>
+	</table>
+	
+		<table>
+		<caption>This table uses thead and tfoot</caption>
+		  <colgroup>
+			<col span="2" >
+			<col >
+		  </colgroup>
+		  <thead>
+			  <tr>
+				<th>ISBN</th>
+				<th>Title</th>
+				<th>Price</th>
+			  </tr>
+			  <tr>
+				<th>-</th>
+				<th>ttl</th>
+				<th>&pound;</th>
+			  </tr>
+		  </thead>
+		  <tr>
+			<td>3476896</td>
+			<td>My first HTML</td>
+			<td>53</td>
+		  </tr>
+		  <tr>
+			<td>3476896</td>
+			<td>My first HTML</td>
+			<td>53</td>
+		  </tr>
+		  <tfoot>
+			  <tr>
+				<td>Total</td>
+				<td></td>
+				<td>106</td>
+			  </tr>
+		  </tfoot>
+	</table>
+	</div>
+	<div id="forms">
+	<h2>Forms</h2>
+	<form action="">
+	<fieldset>
+		<legend>Form block A</legend>
+		<label for="name">Name: </label>
+		<input type="text" placeholder="a text input"></input>
+		<input type="checkbox">Check</input>
+		<input type="email" placeholder="email"></input>
+		<input type="file"></input>
+		<input type="image"></input>
+		<input type="password" placeholder="password"></input>
+		<input type="radio">Radio</input>
+		<input type="range" placeholder="range"></input>
+		<input type="reset"></input>
+		<input type="url" placeholder="url"></input>
+		<input type="search" placeholder="search"></input>
+		<input type="hidden"></input>
+		<input type="tel" placeholder="telephone"></input>
+		<input type="button" value="Push me!"></input>
+		<input type="submit" value="Submit"></input>
+		<textarea></textarea>
+	</fieldset>
+	<fieldset>
+		<legend>Form block B</legend>
+		<button>A button</button>
+		
+		<p>traditional Select</p>
+		<select>
+			<option>Apples</option>
+			<option>Bananas</option>
+			<option>Pears</option>
+			<option>Kiwis</option>
+		</select>
+		
+		<select>
+		  <optgroup label="Group 1">
+			<option>Option 1.1</option>
+		  </optgroup> 
+		  <optgroup label="Group 2">
+			<option>Option 2.1</option>
+			<option>Option 2.2</option>
+		  </optgroup>
+		  <optgroup label="Group 3" disabled>
+			<option>Option 3.1</option>
+			<option>Option 3.2</option>
+			<option>Option 3.3</option>
+		  </optgroup>
+		</select>
+		<p>HTML5 Datalist</p>
+		<input list="browsers" />
+		<datalist id="browsers">
+		  <option value="Chrome">
+		  <option value="Firefox">
+		  <option value="Internet Explorer">
+		  <option value="Opera">
+		  <option value="Safari">
+		</datalist>
+	</fieldset>
+	
+	</form>
+	<form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
+		<input type="range" name="b" value="50" /> +
+		<input type="number" name="a" value="10" /> =
+		<output name="result"></output>
+	</form>
+	<h2>Progress/Meter elements</h2>
+	<progress value="70" max="100">70 %</progress>
+	<p>Meter value > max <meter low="69" high="80" max="100" value="84">B</meter></p>
+	<hr />
+	</div>
+		
+	<div id="misc">
+	<h2>Misc</h2>
+	<h3>Horizontal rule</h3>
+	<hr />
+	
+	<h3>Preserve</h3>
+	<pre>This is a &lt;pre&gt; tag
+		text
+			within here
+		will preserve it's 
+	formatting</pre>
+	
+	<h3>Blockquote</h3>
+	<blockquote cite="http://source.ofquote.org">
+		<p>Use the blockquote to indicate a quotation</p>
+	</blockquote>
+	<h3>Figure/Figcaption</h3>
+	<figure>
+		<img src="grey_square_optical_illusion.png" title="The trick of the eye" alt="optical illusion" />
+		<figcaption>Optical illusion causing beholder to believe same coloured squares are different shades.
+		Uses new HTML5 figure and figcaption elements.
+		</figcaption>
+	</figure>
+	</div>
+	<span>A Span element</span>
+	<div><p>I am a plain old &lt;div&gt;</p></div>
+	<section><p>I am a section</p></section>
+	<article><p>I am an article</p></article>
+	
+	<main><p>I am a main block</p></main>
+	<aside><p>I am an aside</p></aside>
+	<header><p>I am a header</p></header>
+	<footer><p>I am a footer</p></footer>
+	
+	<address>This is an address section</address>
+	
+	
+</div>
+</body>
+</html>
